@@ -1,0 +1,29 @@
+@relation 'Structure and example of test dataset without known values of sex attribute for classifying with Logical Regression model'
+
+@attribute g-op numeric
+@attribute b-ba numeric
+@attribute n-ba numeric
+@attribute n-m numeric
+@attribute ba-o numeric
+@attribute sph-sph numeric
+@attribute ms-ms numeric
+@attribute n-ss numeric
+@attribute zy-zy numeric
+@attribute fmo-n-fmo numeric
+@attribute g-n-rhi numeric
+@attribute 'Area euR-ob-euL' numeric
+@attribute 'Area n-rhi-pr' numeric
+@attribute 'Area zmR-ss-zmL' numeric
+@attribute 'Area total MT' numeric
+@attribute 'height in' numeric
+@attribute nl-nl/zy-zy numeric
+@attribute zy-zy/eu-eu numeric
+@attribute sex {0,1
+
+@data
+184.68,143.71,106.56,42.663,39.89,110.07,107.56,53.253,131.38,133.39,112.18,2819.98,358.41,1604.9,1868.12,23,18.92,97.81,?
+194.29,145.23,112.01,46.84,41.263,109.53,112.72,54.404,138.2,128.03,132.95,2173.62,242.6,1680.85,1762.05,30.21,18.13,110.77,?
+185.57,144.55,109.35,35.54,37.702,108.16,111.28,58.798,122.23,132.12,135.58,3831.08,427.76,1520.17,1599.42,26.97,20.38,88.34,?
+175.13,128.8,93.702,35.406,39.78,108.18,100.41,53.617,118.4,138.67,137.25,2747.17,345.47,1104.72,1255.49,25.74,18.9,93.32,?
+174.38,127.76,102.51,44.468,38.281,107.21,108.75,53.982,118.85,135.27,145.42,2839.29,536.37,1216.78,1246.58,27.71,19.7,93.35,?
+193,140.93,108.2,35.869,43.029,112.61,111.47,56.855,122.77,129.69,146.1,2580.81,364.66,1258.66,1369.42,28.71,19.59,98.89,?

@@ -1,0 +1,99 @@
+@relation 'Structure and example of test dataset with unknown values of sex attribute for classifying with SVM model'
+
+
+@attribute g-op numeric
+@attribute b-ba numeric
+@attribute eu-eu numeric
+@attribute n-ba numeric
+@attribute n-b numeric
+@attribute n-m numeric
+@attribute m-b numeric
+@attribute b-l numeric
+@attribute l-o numeric
+@attribute l-in numeric
+@attribute in-o numeric
+@attribute ba-o numeric
+@attribute fmt-fmt numeric
+@attribute ft-ft numeric
+@attribute st-st numeric
+@attribute sph-sph numeric
+@attribute ast-ast numeric
+@attribute ms-ms numeric
+@attribute 'b-sphR' numeric
+@attribute 'b-sphL' numeric
+@attribute 'l-astR' numeric
+@attribute 'l-astL' numeric
+@attribute ba-pr numeric
+@attribute n-pr numeric
+@attribute n-rhi numeric
+@attribute n-ss numeric
+@attribute ss-pr numeric
+@attribute mf-mf numeric
+@attribute fmo-fmo numeric
+@attribute 'mf-ek R' numeric
+@attribute 'mf-ek L' numeric
+@attribute 'sk-zo R' numeric
+@attribute 'sk-zo L' numeric
+@attribute nl-nl numeric
+@attribute zm-zm numeric
+@attribute ju-ju numeric
+@attribute zy-zy numeric
+@attribute n-m-b numeric
+@attribute b-ob-l numeric
+@attribute l-in-o numeric
+@attribute stR-m-stL numeric
+@attribute astR-in-astL numeric
+@attribute sphR-b-sphL numeric
+@attribute astR-l-astL numeric
+@attribute n-ba-pr numeric
+@attribute n-rhi-pr numeric
+@attribute fmo-n-fmo numeric
+@attribute zm-ss-zm numeric
+@attribute g-n-rhi numeric
+@attribute 'Area b-m-n' numeric
+@attribute 'Area stR-m-stL' numeric
+@attribute 'Area sphR-b-sphL' numeric
+@attribute 'Area b-ob-l' numeric
+@attribute 'Area euR-ob-euL' numeric
+@attribute 'Area l-in-o' numeric
+@attribute 'Area astR-in-astL' numeric
+@attribute 'Area g-n-rhi' numeric
+@attribute 'Area n-rhi-pr' numeric
+@attribute 'Area fmoR-n-fmoL' numeric
+@attribute 'Area zmR-ss-zmL' numeric
+@attribute 'Area total MT' numeric
+@attribute 'height m' numeric
+@attribute 'height ob' numeric
+@attribute 'height in' numeric
+@attribute eu-eu/g-op numeric
+@attribute b-ba/g-op numeric
+@attribute b-ba/eu-eu numeric
+@attribute st-st/n-b numeric
+@attribute ft-ft/n-b numeric
+@attribute eu-eu/b-l numeric
+@attribute ast-ast/l-o numeric
+@attribute ft-ft/eu-eu numeric
+@attribute ast-ast/eu-eu numeric
+@attribute n-pr/zy-zy numeric
+@attribute n-pr/zm-zm numeric
+@attribute n-pr/ju-ju numeric
+@attribute nl-nl/n-ss numeric
+@attribute nl-nl/zy-zy numeric
+@attribute 'sk-zo/mf-ek R' numeric
+@attribute 'sk-zo/mf-ek L' numeric
+@attribute ba-pr/ba-n numeric
+@attribute ba-pr/g-op numeric
+@attribute zy-zy/eu-eu numeric
+@attribute 'height m/n-b' numeric
+@attribute 'height ob/b-l' numeric
+@attribute 'height in/l-o' numeric
+@attribute sex {0,1}
+
+
+@data
+184.68,143.71,134.32,106.56,118.43,42.663,83.94,115.99,95.848,59.054,47.413,39.89,108.93,102.17,106.71,110.07,119.06,107.56,95.166,96.402,90.584,86.211,103.41,67.261,19.279,53.253,14.061,26.53,102.63,39.982,41.873,29.559,28.889,24.861,92.11,115.45,131.38,136.09,134.56,128.05,86.75,125.45,70.14,84.63,37.33,134.68,133.39,105.75,112.18,1241.89,3012.96,4314.18,1142.71,2819.98,1102.43,1825.61,85.01,358.41,1134.29,1604.9,1868.12,20.97,19.7,23,72.73,77.82,106.99,90.1,86.27,115.8,124.22,76.06,88.64,51.2,73.02,58.26,46.68,18.92,73.93,68.99,97.04,55.99,97.81,17.71,16.99,24,?
+194.29,145.23,124.76,112.01,119.45,46.84,79.618,108.78,108.41,82.729,43.568,41.263,111.8,101.89,109.45,109.53,116.74,112.72,95.581,98.555,95.007,92.624,99.751,68.881,16.765,54.404,14.691,27.793,105.73,43.133,42.087,31.624,32.84,25.056,103.31,123.2,138.2,140.26,132.19,114.68,93.14,127.16,68.67,76.94,37.4,147.68,128.03,115.58,132.95,1192.09,2819.12,4387.44,878.17,2173.62,1637.49,1684.06,54.96,242.6,1361.16,1680.85,1762.05,19.96,16.15,30.21,64.21,74.75,116.41,91.63,85.3,114.69,107.68,81.67,93.57,49.84,66.67,55.91,46.06,18.13,73.32,78.03,89.06,51.34,110.77,16.71,14.84,27.87,?
+185.57,144.55,138.36,109.35,108.2,35.54,77.623,117.53,106.09,86.273,36.195,37.702,105.67,93.971,115.48,108.16,119.87,111.28,92.242,90.07,92.645,91.118,102.45,70.868,24.484,58.798,12.155,24.022,100.68,40.154,38.672,30.918,30.187,24.915,97.78,111.67,122.23,143.21,130.7,113.62,92.55,117.57,72.77,81.43,38.92,136.77,132.12,114.9,135.58,825.99,3188.68,3967.64,1200.58,3831.08,1430.56,2173.83,92.15,427.76,1124.39,1520.17,1599.42,15.27,20.43,26.97,74.56,77.9,104.47,106.73,86.85,117.72,112.99,67.92,86.64,57.98,72.48,63.46,42.37,20.38,77,78.06,93.69,55.21,88.34,14.11,17.38,25.42,?
+175.13,128.8,126.87,93.702,111.11,35.406,84.733,108.01,97.475,60.381,49.989,39.78,97.176,94.521,106.43,108.18,112.58,100.41,91.964,90.709,84.603,84.085,88.821,69.289,22.366,53.617,15.777,21.014,91.789,38.552,37.476,33.135,33.628,22.382,86.489,106.02,118.4,130.69,137.22,123.78,89.72,118.97,72.62,83.73,44.52,142.08,138.67,118.77,137.25,1137.33,2845.78,3980.63,834.26,2747.17,1254.39,1867.44,63.89,345.47,794.12,1104.72,1255.49,20.47,15.45,25.74,72.44,73.55,101.52,95.79,85.07,117.46,115.5,74.5,88.74,58.52,80.11,65.35,41.74,18.9,85.95,89.73,94.79,50.72,93.32,18.43,14.3,26.4,?
+174.38,127.76,127.32,102.51,104.7,44.468,71.31,106.27,95.118,69.595,41.791,38.281,103.22,99.534,111.09,107.21,111.96,108.75,91.586,90.695,90.314,89.741,92.655,72.543,27.784,53.982,18.571,25.215,97.1,39.282,39.168,34.764,35.26,23.409,88.073,107.1,118.85,127.94,131.76,114.99,96.73,116.72,72.05,76.9,43.27,131.06,135.27,115.71,145.42,1250.37,2742.4,3951.06,877.51,2839.29,1318.07,1930.63,69.44,536.37,969.65,1216.78,1246.58,23.88,16.51,27.71,73.01,73.27,100.35,106.1,95.07,119.81,117.71,78.18,87.94,61.04,82.37,67.73,43.36,19.7,88.5,90.02,90.39,53.13,93.35,22.81,15.54,29.14,?
+193,140.93,124.15,108.2,118.49,35.869,92.877,114.52,100.56,63.715,52.273,43.029,106.85,104.89,114.52,112.61,120.54,111.47,100.02,101.93,89.012,93.6,99.321,70.235,26.099,56.855,13.515,25.454,102.1,41.913,41.983,36.683,37.022,24.046,92.344,111.98,122.77,128.27,142.4,119.9,90.64,110.11,67.77,82.57,39.27,143.91,129.69,118.86,146.1,1307.66,3240.32,4718.77,859.1,2580.81,1443.67,2538.1,65.98,364.66,1223.73,1258.66,1369.42,22.07,15,28.71,64.33,73.02,113.52,96.65,88.52,108.41,119.87,84.49,97.09,57.21,76.06,62.72,42.29,19.59,87.52,88.18,91.79,51.46,98.89,18.63,13.1,28.55,?
